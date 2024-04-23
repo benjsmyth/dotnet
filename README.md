@@ -1,2 +1,2 @@
-# c-sharp-sandbox
-Sandbox for learning the C# programming language
+# dot-net-sandbox
+Sandbox for learning the .NET architecture
