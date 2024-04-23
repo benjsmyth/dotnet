@@ -1,0 +1,15 @@
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/bin/Debug/net6.0/sample1
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/bin/Debug/net6.0/sample1.deps.json
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/bin/Debug/net6.0/sample1.runtimeconfig.json
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/bin/Debug/net6.0/sample1.dll
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/bin/Debug/net6.0/sample1.pdb
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.csproj.AssemblyReference.cache
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.AssemblyInfoInputs.cache
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.AssemblyInfo.cs
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.csproj.CoreCompileInputs.cache
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.dll
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/refint/sample1.dll
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.pdb
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/sample1.genruntimeconfig.cache
+/Users/benjsmyth/code/github/private/dot-net-sandbox/hello-world/sample1/obj/Debug/net6.0/ref/sample1.dll
