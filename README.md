@@ -1,2 +1,2 @@
-# dot-net-sandbox
+# dotnet-sandbox
 Sandbox for learning the .NET architecture
