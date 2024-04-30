@@ -1,2 +1,2 @@
 # dotnet
-Sandbox for learning the .NET architecture
+Repository of .NET projects
