@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("passman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7934edb98b1b7e09eecb2804a1d22c5349991a9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80cbea3e91f8d48ffd58c1781baa1949f6ed427a")]
 [assembly: System.Reflection.AssemblyProductAttribute("passman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("passman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
