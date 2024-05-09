@@ -1,9 +1,9 @@
 ﻿Console.WriteLine("PassMan | Password manager");
-Manager.Run();
+Manager.Work();
 
 abstract class Manager
 {
-    public static void Run()
+    public static void Work()
     {
         uint action;
         while ( (action = Prompt() ) > 0)
@@ -12,7 +12,7 @@ abstract class Manager
         }
         Console.WriteLine("Quitting");
     }
-    public static uint Prompt()
+    private static uint Prompt()
     {
         Console.WriteLine("""
             1: Search
