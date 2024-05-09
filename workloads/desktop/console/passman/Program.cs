@@ -3,6 +3,8 @@ Manager.Work();
 
 abstract class Manager
 {
+    private static readonly Database? _Database;
+
     public static void Work()
     {
         uint action;
@@ -21,10 +23,7 @@ abstract class Manager
             4: Save
             5: Reset
             Q: Quit
-        """); return Select();
-    }
-    private static uint Select()
-    {
+        """);
         Console.Write("Select: ");
         try
         {
@@ -47,28 +46,28 @@ abstract class Manager
     }
 }
 
-// sealed class Database : ISortable
-// {
-//     private readonly string _Path;
-//     private readonly Stream _Stream;
-//     private readonly BinaryWriter _Writer;
+sealed class Database : ISortable
+{
+    private readonly string _Path;
+    private readonly Stream _Stream;
+    private readonly BinaryWriter _Writer;
 
-//     public Database(string path)
-//     {
-//         _Path = @path;
-//         // Check for nullability!
+    public Database(string path)
+    {
+        _Path = @path;
+        // Check for nullability!
         
-//         _Stream = File.Open(_Path, FileMode.OpenOrCreate);
-//         // Remember to close!
+        _Stream = File.Open(_Path, FileMode.OpenOrCreate);
+        // Remember to close!
 
-//         _Writer = new BinaryWriter(_Stream, Encoding.UTF8);
-//         // Remember to close!
-//     }
-//     public static void Sort()
-//     {
-//         return;
-//     }
-// }
+        _Writer = new BinaryWriter(_Stream, System.Text.Encoding.UTF8);
+        // Remember to close!
+    }
+    public static void Sort()
+    {
+        return;
+    }
+}
 // abstract class Generator : ISortable
 // {
 //     public static readonly Password[] passwords = [];
@@ -81,8 +80,8 @@ abstract class Manager
 //         return;
 //     }
 // }
-// interface ISortable
-// {
-//     abstract static void Sort();
-// }
+interface ISortable
+{
+    abstract static void Sort();
+}
 // record Password(string Value, string[] Keys);
