@@ -10,16 +10,18 @@ abstract class Manager
         {
             Execute(action);
         }
+        Console.WriteLine("Quitting");
     }
     public static uint Prompt()
     {
-        Console.WriteLine("\t1: Search");
-        Console.WriteLine("\t2: Edit");
-        Console.WriteLine("\t3: Load");
-        Console.WriteLine("\t4: Save");
-        Console.WriteLine("\t5: Reset");
-        Console.WriteLine("\tQ: Quit");
-        return Select();
+        Console.WriteLine("""
+            1: Search
+            2: Edit
+            3: Load
+            4: Save
+            5: Reset
+            Q: Quit
+        """); return Select();
     }
     private static uint Select()
     {
@@ -31,12 +33,11 @@ abstract class Manager
         }
         catch (IOException)
         {
-            Console.WriteLine("IOException. Quitting");
+            Console.Write("IOException. ");
             return 0;
         }
         catch (FormatException)
         {
-            Console.WriteLine("Quitting");
             return 0;
         }
     }
