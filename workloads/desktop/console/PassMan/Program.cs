@@ -7,7 +7,7 @@ static class Manager
     public static void Work()
     {
         uint action;
-        while ((action = Select()) > 0)
+        while ( (action = Select() ) > 0)
         {
             Execute(action);
         }
@@ -40,10 +40,34 @@ static class Manager
     {
         switch (action)
         {
+            case 1:
+                Console.WriteLine("Searching...");
+                break;
+
+            case 2:
+                Console.WriteLine("Editing...");
+                break;
+
+            case 3:
+                Console.WriteLine("Loading...");
+                break;
+
+            case 4:
+                Console.WriteLine("Saving...");
+                break;
+
             case 5:
                 Console.Write("Pathname: ");
                 string? path = Console.ReadLine();
                 _database = new(path);
+                break;
+
+            case 6:
+                Console.WriteLine("Creating...");
+                break;
+
+            case 7:
+                Console.WriteLine("Destroying...");
                 break;
 
             default:
