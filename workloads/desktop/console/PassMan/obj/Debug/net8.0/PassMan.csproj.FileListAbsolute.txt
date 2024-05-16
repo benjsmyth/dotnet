@@ -1,0 +1,15 @@
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\bin\Debug\net8.0\PassMan.exe
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\bin\Debug\net8.0\PassMan.deps.json
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\bin\Debug\net8.0\PassMan.runtimeconfig.json
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\bin\Debug\net8.0\PassMan.dll
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\bin\Debug\net8.0\PassMan.pdb
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.AssemblyInfoInputs.cache
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.AssemblyInfo.cs
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.csproj.CoreCompileInputs.cache
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.sourcelink.json
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.dll
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\refint\PassMan.dll
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.pdb
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\PassMan.genruntimeconfig.cache
+C:\Users\smyth\dotnet\workloads\desktop\console\PassMan\obj\Debug\net8.0\ref\PassMan.dll
