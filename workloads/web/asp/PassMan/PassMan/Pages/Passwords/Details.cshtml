@@ -1,0 +1,31 @@
+﻿@page
+@model PassMan.Pages.Passwords.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Password</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Password.Domain)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Password.Domain)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Password.Value)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Password.Value)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Password.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
