@@ -1,0 +1,17 @@
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\bin\Debug\net8.0-windows\PassMan.exe
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\bin\Debug\net8.0-windows\PassMan.deps.json
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\bin\Debug\net8.0-windows\PassMan.runtimeconfig.json
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\bin\Debug\net8.0-windows\PassMan.dll
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\bin\Debug\net8.0-windows\PassMan.pdb
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.PassMan.resources
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.csproj.GenerateResource.cache
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.AssemblyInfoInputs.cache
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.AssemblyInfo.cs
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.csproj.CoreCompileInputs.cache
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.sourcelink.json
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.dll
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\refint\PassMan.dll
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.pdb
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\PassMan.genruntimeconfig.cache
+C:\Users\smyth\dotnet\workloads\desktop\winforms\PassMan\PassMan\obj\Debug\net8.0-windows\ref\PassMan.dll
