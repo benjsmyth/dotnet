@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PassMan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c823af4183558461dc912d44b5c266d21f1e5857")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2827a970d744d5258efa7e7bbb16293624ff4cb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PassMan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PassMan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

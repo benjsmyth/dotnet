@@ -11,7 +11,6 @@ static class Manager
         {
             Execute(action);
         }
-        Console.WriteLine("Quitting");
     }
 
     private static uint Select()
@@ -24,15 +23,15 @@ static class Manager
         }
         catch (FormatException)
         {
-            // Quit
+            // Quit program.
             return 0;
         }
     }
 
     private static void Prompt()
     {
-        Console.Write(string.Join(" | ",
-            null, "Search", "Edit", "Load", "Save", "Create", "Destroy", "Quit", null)
+        Console.Write(string.Join("\n",
+            "1 | Search", "2 | Edit", "3 | Load", "4 | Save", "5 | Create", "6 | Destroy", null)
         );
     }
 
@@ -41,33 +40,36 @@ static class Manager
         switch (action)
         {
             case 1:
-                Console.WriteLine("Searching...");
+                Console.WriteLine("Search keyword(s): ");
+		string? keywords = Console.ReadLine();
+		results = _database.search(keywords);
                 break;
 
             case 2:
-                Console.WriteLine("Editing...");
+                Console.WriteLine("Domain: ");
+		string? domain = Console.ReadLine();
+		Console.WriteLine("New password: ");
+ 		string? password = Console.ReadLine();
+		_database.edit(domain, password);
                 break;
 
             case 3:
-                Console.WriteLine("Loading...");
+                Consolle.WriteLine("Loading database...");
                 break;
 
             case 4:
-                Console.WriteLine("Saving...");
+                Console.WriteLine("Saving database...");
                 break;
 
             case 5:
+                Console.WriteLine("Creating database...");
                 Console.Write("Pathname: ");
                 string? path = Console.ReadLine();
                 _database = new(path);
                 break;
 
             case 6:
-                Console.WriteLine("Creating...");
-                break;
-
-            case 7:
-                Console.WriteLine("Destroying...");
+                Console.WriteLine("Destroying database...");
                 break;
 
             default:
